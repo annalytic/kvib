@@ -27,11 +27,11 @@ const sidebars = {
         id: 'omKvib/infoKvibID',
         label: 'Kom i gang', // Label til sidebar
     },
-        {
-            type: 'doc',
-            id: 'omKvib/installationID',
-            label: 'KVIB Installasjon', // Label til sidebar
-        },
+        // {
+        //     type: 'doc',
+        //     id: 'omKvib/installationID',
+        //     label: 'KVIB Installasjon', // Label til sidebar
+        // },
         {
             type: 'category',
             label: 'Utvide KVIB', // Label til sidebar
@@ -94,6 +94,7 @@ const sidebars = {
                 // Dokument som skal være under 'Design tokens'. For å hente .md-fil; skriv path inkludert IDen.
                 // Eks. folder/folder/docID
                 'designsystems/Komponenter/checkboxID',
+                'designsystems/Komponenter/cardsID',
                 'designsystems/Komponenter/inputfeltID',
                 'designsystems/Komponenter/dropDownID',
                 'designsystems/Komponenter/searchbarID',

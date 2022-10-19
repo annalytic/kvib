@@ -29,7 +29,14 @@ For å sikre helhetlige tjenester og god dialog på tvers av team har vi etabler
 Ønsker du å bli inkludert i møtene kan du sende en mail til wanwisa.johnsrud@kartverket.no. Velkommen!
 </p>
 
+
+
 ## Kom i gang som utvikler
+KVIB kan tas i bruk ved å legge til link eller url import i HTML/CSS fil eller ved å laste ned npm pakken.
+KVIB er delt i 2 npm pakker, <code>kvib-react-components</code> for KVIB React komponenter og <code>kvib-css</code> for KVIB CSS styling.
+
+<div class="download__container--test">
+
 ### HTML link
 Importer KVIB HTML link:
 
@@ -43,6 +50,7 @@ Importer KVIB i index.css i prosjektet:
 ```markdown
 @import url("https://kartverket.github.io/kvib/css/main.css");
 ```
+</div>
 
 ### Installasjon av KVIB NPM Package
 
