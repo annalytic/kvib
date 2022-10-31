@@ -38,6 +38,14 @@ p a {
     text-decoration: underline;
 }
 
+p {
+    max-width: 60ch;
+}
+
+.heading {
+    max-width: 50ch;
+}
+
 /*sette bredde på gif i docs/designsystems/Komponenter/slider.md*/
 img[alt=sliderGif] { width: 70%;}
 
@@ -75,6 +83,12 @@ img[alt=documenting_example].img_node_modules-\@docusaurus-theme-classic-lib-the
 
 .background--container {
     background-color: var(--gray_light);
+}
+
+.background--container--green {
+    background-color: var(--green_light);
+    padding: 16px;
+    border-radius: 8px;
 }
 
 .button {
