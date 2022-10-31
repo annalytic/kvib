@@ -54,7 +54,7 @@
     text-decoration: underline;
 }
 
-.card__container:hover .card__content {
+.card__link .card__container:hover .card__content {
     border-radius: 8px;
     z-index: 1;
 }

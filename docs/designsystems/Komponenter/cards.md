@@ -8,15 +8,15 @@ displayed_sidebar: designsystemSidebar
 
 ## Kort
 
-<div class="card__container">
 <a class="card__link" href="#">
+    <div class="card__container">
         <img class="card__img" src="../../img/image_docs/demo.png" alt="demo"/>
         <div class="card__content">
             <h1 class="heading heading__h1--s">Title</h1>
             <p class="body-text">Description</p>
         </div>
+    </div>
 </a>
-</div>
 
 
 <br/>
@@ -24,7 +24,7 @@ displayed_sidebar: designsystemSidebar
 ```markdown
 <a class="card__link" href="#">
     <div class="card__container">
-        <img class="card__img" src="demo.png" alt="demo">
+        <img class="card__img" src="../../img/image_docs/demo.png" alt="demo"/>
         <div class="card__content">
             <h1 class="heading heading__h1--s">Title</h1>
             <p class="body-text">Description</p>
